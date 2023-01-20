@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(204, 232, 223);
+}
+.text-head{
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Secular One', sans-serif;
+    margin: 10px;
+    
+}
+.center{
+    margin: 30px;
+    text-align: center;
+}
+.center form label{
+    font-family: 'Barlow', sans-serif;
+}
+span{
+    font-family: 'Barlow', sans-serif;
+}
+.button{
+    margin-top:10px ;
+    font-family: 'Barlow', sans-serif;
+}

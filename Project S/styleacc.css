@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    display: border-box;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('green-oak-1024x683.jpg');
+    font-family: 'Secular One', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box{
+    
+    width: 40%;
+    height:2000px;
+    position: fixed;
+    background-color: #10316b;
+}
+.text{
+    text-align: left;
+    padding: 5vw;
+}
+.text .font{
+    color: white;
+    font-size: 5vw;
+}
+.login{
+    width: 30vw;
+    background-color: #0b8457;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left:5vw ;
+    
+}
+.show a .login:hover{
+    /*background-color: #28ae7d;*/
+    transition: 0.5s;
+    background-color: #4dac89;
+}
+.show a .regis:hover{
+    /*background-color: #28ae7d;*/
+    transition: 0.5s;
+    background-color: #4dac89;
+}
+.regis{
+    width: 30vw;
+    background-color: #0b8457;
+    height: 5vw;
+    border-radius: 50px;
+    margin-left:5vw ;
+    margin-top: 2vw;
+    
+}
+a{
+    text-decoration: none;
+}
+.login .pipi{
+    text-align: center;
+    padding: 0.75vw;
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Prompt', sans-serif;
+}
+.regis .pipi{
+    text-align: center;
+    padding: 0.75vw;
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Prompt', sans-serif;
+}
